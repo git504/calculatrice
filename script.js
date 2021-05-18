@@ -1,5 +1,4 @@
 // 1 Inputs cards
-// 2 Opérande cards
 // 3 Calculer cards
 
 function calculer() {
@@ -34,6 +33,12 @@ function calculer() {
 
         // document.getElementById("btn").onclick = calculer();
  
+
+// 2 Opérande cards
+
+function operateur () {
+ 
+}
 
 
 
