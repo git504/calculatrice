@@ -1,14 +1,10 @@
 // 2 Inputs
 
-let nbr1 = document.getElementsById(enternbrs1);
-let nbr2 = document.getElementsById(enternbrs2);
-
-console.log("Hello, here is " + nbr1 " and " + nbr2);
-
 function ecouteinput () {
-    document.getElementById
+    let nbr1 = document.getElementsById("enternbrs1").value;
+    let nbr2 = document.getElementsById("enternbrs2").value;
+    console.log("Hello you, here is " + nbr1 + " and " + nbr2);
 }
-
 
 
 // Opérande 
