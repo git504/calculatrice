@@ -5,7 +5,7 @@ function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
     let signedeloperation = document.getElementById("toucheoperation").value;
-    //let resultat = parseInt(nbr1) + parseInt(nbr2);
+    let resultat = ;
 
         if(!isNaN(resultat)) {
         document.getElementById("screen").innerHTML = resultat;
@@ -16,17 +16,17 @@ function calculer() {
     
         switch (signedeloperation) {
             case '+':
-              console.log(nbr1 + nbr2);
+              console.log(parseInt(nbr1) + parseInt(nbr2));
                 break;
             case '-':
-                console.log(nbr1 - nbr2);
+                console.log(parseInt(nbr1) - parseInt(nbr2));
 
                 break;
             case 'x':
-              console.log(nbr1 * nbr2);
+              console.log(parseInt(nbr1) * parseInt(nbr2));
                 break;
               case '/':
-                console.log(nbr1 / nbr2);
+                console.log(parseInt(nbr1) / parseInt(nbr2));
                 break;
           }
     }
