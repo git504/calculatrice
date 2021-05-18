@@ -39,8 +39,8 @@ function calculer() {
 
 function touches(signe) {
 //    let e = document.getElementById(signe).value;
-
-   console.log(signe);
+    document.getElementById("toucheoperation").innerHTML = signe;
+    console.log(signe);
 }
 
 
