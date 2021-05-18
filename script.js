@@ -49,5 +49,3 @@ function touches(signe) {
 
 
 
-
-
