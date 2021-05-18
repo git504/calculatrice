@@ -10,7 +10,7 @@ function calculer() {
        
     switch (signedeloperation) {
             case '+':
-              let resultat = console.log(parseInt(nbr1) + parseInt(nbr2));
+              let resultat = parseInt(nbr1) + parseInt(nbr2);
               if(!isNaN(resultat)) {
                 document.getElementById("screen").innerHTML = resultat;
                 } else {
@@ -19,7 +19,7 @@ function calculer() {
                 //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
                 break;
             case '-':
-                let resultat = console.log(parseInt(nbr1) - parseInt(nbr2));
+                let resultat = parseInt(nbr1) - parseInt(nbr2);
                 if(!isNaN(resultat)) {
                     document.getElementById("screen").innerHTML = resultat;
                     } else {
@@ -28,16 +28,16 @@ function calculer() {
                     //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
                 break;
             case 'x':
-                let resultat = console.log(parseInt(nbr1) * parseInt(nbr2));
-                break;
+                let resultat = parseInt(nbr1) * parseInt(nbr2);
                 if(!isNaN(resultat)) {
                     document.getElementById("screen").innerHTML = resultat;
                     } else {
                     alert("Ouille ! ;-( Entrer un nombre.")
                     } 
                     //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
+                break;
               case '/':
-                let resultat = console.log(parseInt(nbr1) / parseInt(nbr2));
+                let resultat = parseInt(nbr1) / parseInt(nbr2);
                 if(!isNaN(resultat)) {
                     document.getElementById("screen").innerHTML = resultat;
                     } else {
