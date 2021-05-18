@@ -11,13 +11,11 @@ function calculer() {
     //test NaN
 
         if(!isNaN(resultat)) {
-        alert(resultat);
+        document.getElementById("screen").innerHTML = resultat;
         } else {
         alert("Ouille ! ;-( Entrer un nombre.")
         } 
         //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
-        document.getElementById("screen").innerHTML = resultat;
-    
     }
 
 
