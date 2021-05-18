@@ -1,12 +1,13 @@
 // 1 Inputs cards
+// 3 Calculer cards
 
 function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
     let signedeloperation = document.getElementById("toucheoperation").value;
-    let resultat = parseInt(nbr1) + parseInt(nbr2);
-    
-    
+    //let resultat = parseInt(nbr1) + parseInt(nbr2);
+
+
         if(!isNaN(resultat)) {
         document.getElementById("screen").innerHTML = resultat;
         } else {
@@ -33,16 +34,12 @@ function calculer() {
  
 
 // 2 Opérande cards
-// onclick="touches(id)"
 
 function touches(signe) {
 //    let e = document.getElementById(signe).value;
     document.getElementById("toucheoperation").innerHTML = signe;
     console.log(signe);
 }
-
-
-// 3 Calculer cards
 
 
 
