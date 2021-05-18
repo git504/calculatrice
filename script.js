@@ -5,28 +5,45 @@ function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
     let signedeloperation = document.getElementById("toucheoperation").value;
-    let resultat = ;
 
-        if(!isNaN(resultat)) {
-        document.getElementById("screen").innerHTML = resultat;
-        } else {
-        alert("Ouille ! ;-( Entrer un nombre.")
-        } 
-        //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
-    
-        switch (signedeloperation) {
+    //let resultat =  ;
+       
+    switch (signedeloperation) {
             case '+':
-              console.log(parseInt(nbr1) + parseInt(nbr2));
+              let resultat = console.log(parseInt(nbr1) + parseInt(nbr2));
+              if(!isNaN(resultat)) {
+                document.getElementById("screen").innerHTML = resultat;
+                } else {
+                alert("Ouille ! ;-( Entrer un nombre.")
+                } 
+                //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
                 break;
             case '-':
-                console.log(parseInt(nbr1) - parseInt(nbr2));
-
+                let resultat = console.log(parseInt(nbr1) - parseInt(nbr2));
+                if(!isNaN(resultat)) {
+                    document.getElementById("screen").innerHTML = resultat;
+                    } else {
+                    alert("Ouille ! ;-( Entrer un nombre.")
+                    } 
+                    //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
                 break;
             case 'x':
-              console.log(parseInt(nbr1) * parseInt(nbr2));
+                let resultat = console.log(parseInt(nbr1) * parseInt(nbr2));
                 break;
+                if(!isNaN(resultat)) {
+                    document.getElementById("screen").innerHTML = resultat;
+                    } else {
+                    alert("Ouille ! ;-( Entrer un nombre.")
+                    } 
+                    //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
               case '/':
-                console.log(parseInt(nbr1) / parseInt(nbr2));
+                let resultat = console.log(parseInt(nbr1) / parseInt(nbr2));
+                if(!isNaN(resultat)) {
+                    document.getElementById("screen").innerHTML = resultat;
+                    } else {
+                    alert("Ouille ! ;-( Entrer un nombre.")
+                    } 
+                    //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
                 break;
           }
     }
