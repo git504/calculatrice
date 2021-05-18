@@ -38,7 +38,8 @@ function calculer() {
 // onclick="touches(id)"
 
 function touches(signe) {
-   let e = document.getElementById(signe).value;
+//    let e = document.getElementById(signe).value;
+
    console.log(signe);
 }
 
