@@ -1,12 +1,14 @@
 // 1 Inputs cards
-// 3 Calculer cards
 
 function calculer() {
+    console.log(calculer);
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
     let signedeloperation = document.getElementById("toucheoperation").value;
     let resultat = "";
-       
+    
+// 3 Calculer cards
+
     switch (signedeloperation) {
             case '+':
               resultat = parseInt(nbr1) + parseInt(nbr2);
