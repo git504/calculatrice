@@ -8,11 +8,17 @@ function calculer() {
     let resultat = parseInt(nbr1) + parseInt(nbr2);
     //test NaN
 
-        if(resultat != NaN) {
-        alert(resultat);}
-        else {
-        alert("Ouille ! ;-( Entrer un nombre.")} 
-        //Qd on recupere valeur ds input par defaut = string. Si parsInt = number
+        if(resultat != NaN(resultat)) {
+        alert(resultat);
+        } else {
+        alert("Ouille ! ;-( Entrer un nombre.")
+        } 
+        //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
+    }
+
+
+
+
 
 
         // if(document.getElementById("add").selected) {
@@ -29,7 +35,7 @@ function calculer() {
         // }
 
         // document.getElementById("btn").onclick = calculer();
-} 
+ 
 
 
 // Opérande 
