@@ -5,10 +5,10 @@ function calculer() {
     let nbr2 = document.getElementById("enternbrs2").value;
     // console.log("Hello you, here is " + nbr1 + " and " + nbr2);
 
-    let resultat = parseInt(nbr1) + parseInt(nbr2)
+    let resultat = parseInt(nbr1) + parseInt(nbr2);
     //test NaN
 
-        if(resultat !== NaN) {
+        if(resultat != NaN) {
         alert(resultat);}
         else {
         alert("Ouille ! ;-( Entrer un nombre.")} 
@@ -33,11 +33,6 @@ function calculer() {
 
 
 // Opérande 
-
-
-
-
-
 // Calculer
 
 
