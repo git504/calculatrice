@@ -1,5 +1,4 @@
 // 1 Inputs cards
-// 3 Calculer cards
 
 function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
@@ -18,13 +17,13 @@ function calculer() {
     }
 
 
-        // if(document.getElementById("add").selected) {
+        // if(document.getElementById("+").selected) {
         //     resultat = parseInt(nb1) + parseInt(nbr2);
         // }
-        // else if(document.getElementById("sous").selected) {
+        // else if(document.getElementById("-").selected) {
         //     resultat = parseInt(nb1) - parseInt(nbr2);
         // }
-        // else if(document.getElementById("mult").selected) {
+        // else if(document.getElementById("x").selected) {
         //     resultat = parseInt(nb1) * parseInt(nbr2);
         // }
         // else {
@@ -42,6 +41,9 @@ function touches(signe) {
     document.getElementById("toucheoperation").innerHTML = signe;
     console.log(signe);
 }
+
+
+// 3 Calculer cards
 
 
 
