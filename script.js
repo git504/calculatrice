@@ -3,12 +3,10 @@
 function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
-    // console.log("Hello you, here is " + nbr1 + " and " + nbr2);
-
-    let resultat = parseInt(nbr1) + parseInt(nbr2);
     let signedeloperation = document.getElementById("toucheoperation").value;
-    //test NaN
-
+    let resultat = parseInt(nbr1) + parseInt(nbr2);
+    
+    
         if(!isNaN(resultat)) {
         document.getElementById("screen").innerHTML = resultat;
         } else {
