@@ -14,15 +14,21 @@ function calculer() {
         } 
         //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
     
-        if (signedeloperation === +){
-            nbr1 + nbr2
-        } else if (signedeloperation === -) {
-            nbr1 - nbr2
-        } else if (signedeloperation === x) {
-            nbr1 * nbr2
-        } else {
-            nbr1 / nbr2
-        }
+        switch (signedeloperation) {
+            case '+':
+              console.log(nbr1 + nbr2);
+                break;
+            case '-':
+                console.log(nbr1 - nbr2);
+
+                break;
+            case 'x':
+              console.log(nbr1 * nbr2);
+                break;
+              case '/':
+                console.log(nbr1 / nbr2);
+                break;
+          }
     }
 
 // 2 Opérande cards
