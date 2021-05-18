@@ -36,8 +36,9 @@ function calculer() {
 
 // 2 Opérande cards
 
-function operateur(signe) {
-   let e = document.getElementById(signe)
+function touches (signe) {
+   let e = document.getElementById(signe).value;
+   console.log(e);
 }
 
 
