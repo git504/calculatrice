@@ -35,10 +35,11 @@ function calculer() {
  
 
 // 2 Opérande cards
+// onclick="touches(id)"
 
 function touches(signe) {
    let e = document.getElementById(signe).value;
-   console.log(e);
+   console.log(signe);
 }
 
 
