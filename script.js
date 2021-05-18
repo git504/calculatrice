@@ -1,4 +1,6 @@
-// 2 Inputs
+// 1 Inputs cards
+// 2 Opérande cards
+// 3 Calculer cards
 
 function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
@@ -15,10 +17,6 @@ function calculer() {
         } 
         //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
     }
-
-
-
-
 
 
         // if(document.getElementById("add").selected) {
@@ -38,8 +36,7 @@ function calculer() {
  
 
 
-// Opérande 
-// Calculer
+
 
 
 
