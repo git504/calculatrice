@@ -9,7 +9,7 @@ function calculer() {
     console.log("Hello you, here is " + nbr1 + " and " + nbr2);
 
     if(typeof parseInt(nbr1) === 'number' && typeof parseInt(nbr2) === 'number') {
-            console.log("ok entrer votre nombre");
+            console.log("Tout va bien ;-) C'est un nombre !");
             }else{
             console.log(typeof nbr1);
             }
