@@ -52,11 +52,6 @@
     cursor: pointer;
     /* filter: brightness(95%); */
   }
-
-p {
-margin: 7px;
-text-align: center;
-} 
   
 .nbrs {
     display: flex;
