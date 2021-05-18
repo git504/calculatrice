@@ -4,7 +4,7 @@ function calculer() {
     console.log(calculer);
     let nbr1 = document.getElementById("enternbrs1").value;
     let nbr2 = document.getElementById("enternbrs2").value;
-    let signedeloperation = document.getElementById("toucheoperation").value;
+    let signedeloperation = document.getElementById("toucheoperation").innerText;
     let resultat = "";
     
 // 3 Calculer cards
@@ -48,6 +48,9 @@ function calculer() {
                 break;
           }
     }
+//test 
+console.log(signedeloperation);
+
 
 // 2 Opérande cards
 
