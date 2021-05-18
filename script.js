@@ -1,7 +1,7 @@
 // 2 Inputs
 
-
-//on recupere et on stocke
+// on recupere et on stocke
+// on securise avec le CSS input REQUIRED et MIN
 
 function calculer() {
     let nbr1 = document.getElementById("enternbrs1").value;
@@ -10,8 +10,9 @@ function calculer() {
 
     if(typeof nbr1 === 'number' && typeof nbr2 === 'number') {
             console.log("Everything is Ok");
-            }
+            } else {
             console.log("Enter a number");
+            }
 } 
 
 
