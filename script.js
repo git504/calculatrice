@@ -7,31 +7,23 @@ function calculer() {
     let signedeloperation = document.getElementById("toucheoperation").value;
     //let resultat = parseInt(nbr1) + parseInt(nbr2);
 
-
         if(!isNaN(resultat)) {
         document.getElementById("screen").innerHTML = resultat;
         } else {
         alert("Ouille ! ;-( Entrer un nombre.")
         } 
         //Qd on recupere valeur dans un input HTML par defaut = valeur string. Si parsInt = valeur number
+    
+        if (signedeloperation === +){
+            nbr1 + nbr2
+        } else if (signedeloperation === -) {
+            nbr1 - nbr2
+        } else if (signedeloperation === x) {
+            nbr1 * nbr2
+        } else {
+            nbr1 / nbr2
+        }
     }
-
-
-        // if(document.getElementById("+").selected) {
-        //     resultat = parseInt(nb1) + parseInt(nbr2);
-        // }
-        // else if(document.getElementById("-").selected) {
-        //     resultat = parseInt(nb1) - parseInt(nbr2);
-        // }
-        // else if(document.getElementById("x").selected) {
-        //     resultat = parseInt(nb1) * parseInt(nbr2);
-        // }
-        // else {
-        //     resultat = parseInt(nbr1) / parseInt(nbr2);
-        // }
-
-        // document.getElementById("btn").onclick = calculer();
- 
 
 // 2 Opérande cards
 
