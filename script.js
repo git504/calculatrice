@@ -8,10 +8,10 @@ function calculer() {
     let nbr2 = document.getElementById("enternbrs2").value;
     console.log("Hello you, here is " + nbr1 + " and " + nbr2);
 
-    if(typeof nbr1 === 'number' && typeof nbr2 === 'number') {
-            console.log("Everything is Ok");
-            } else {
-            console.log("Enter a number");
+    if(typeof nbr1 === 'number') {
+            console.log(typeof nbr1);
+            }else{
+            console.log(typeof nr1);
             }
 } 
 
