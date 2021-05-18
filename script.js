@@ -8,8 +8,6 @@ function calculer() {
     let resultat = parseInt(nbr1) + parseInt(nbr2)
     //test NaN
 
-
-
         if(resultat !== NaN) {
         alert(resultat);}
         else {
