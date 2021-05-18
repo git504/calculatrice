@@ -5,22 +5,8 @@ function calculer() {
     let nbr2 = document.getElementById("enternbrs2").value;
     // console.log("Hello you, here is " + nbr1 + " and " + nbr2);
 
-    let resultat =    if(document.getElementById("+").selected) {
-        resultat = parseInt(nb1) + parseInt(nbr2);
-    }
-    else if(document.getElementById("-").selected) {
-        resultat = parseInt(nb1) - parseInt(nbr2);
-    }
-    else if(document.getElementById("x").selected) {
-        resultat = parseInt(nb1) * parseInt(nbr2);
-    }
-    else {
-        resultat = parseInt(nbr1) / parseInt(nbr2);
-    }
-
-    document.getElementById("btn").onclick = calculer();
-    
-    //parseInt(nbr1) + parseInt(nbr2);
+    let resultat = parseInt(nbr1) + parseInt(nbr2);
+    let signedeloperation = document.getElementById("toucheoperation").value;
     //test NaN
 
         if(!isNaN(resultat)) {
@@ -32,7 +18,20 @@ function calculer() {
     }
 
 
-     
+        // if(document.getElementById("+").selected) {
+        //     resultat = parseInt(nb1) + parseInt(nbr2);
+        // }
+        // else if(document.getElementById("-").selected) {
+        //     resultat = parseInt(nb1) - parseInt(nbr2);
+        // }
+        // else if(document.getElementById("x").selected) {
+        //     resultat = parseInt(nb1) * parseInt(nbr2);
+        // }
+        // else {
+        //     resultat = parseInt(nbr1) / parseInt(nbr2);
+        // }
+
+        // document.getElementById("btn").onclick = calculer();
  
 
 // 2 Opérande cards
